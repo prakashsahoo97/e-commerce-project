@@ -32,7 +32,7 @@ public class ProductServiceImplementation implements ProductService {
 	@Autowired
 	private UserService userService;
 //this is product service implementation
-	//second comment
+	//second commment
 	@Override
 	public Product createProduct(CreateProductRequest req) {
 
