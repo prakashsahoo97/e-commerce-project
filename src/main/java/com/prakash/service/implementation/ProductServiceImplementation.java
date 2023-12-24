@@ -31,7 +31,7 @@ public class ProductServiceImplementation implements ProductService {
 	private CategoryRepository categoryRepository;
 	@Autowired
 	private UserService userService;
-
+//this is product service implementation
 	@Override
 	public Product createProduct(CreateProductRequest req) {
 
